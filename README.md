@@ -13,4 +13,5 @@ Add the following to your Gemfile:
 Add the following directive to your JavaScript manifest file (application.js) after requiring angular:
 
     //= require angular
+    //= require angular-route
     //= require angular-route-segment
