@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
 	s.homepage    = 'https://github.com/alekseenko/angular-route-segment-rails/'
 	s.license     = 'MIT'
 
-  s.add_development_dependency  'angularjs-rails'
+  s.add_dependency 'angularjs-rails'
 end

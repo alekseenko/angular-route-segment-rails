@@ -9,8 +9,10 @@ Add the following to your Gemfile:
 
     gem 'angular-route-segment-rails'
 
-Add the following directive to your JavaScript manifest file (application.js) after requiring angular:
+Add the following directive to your JavaScript manifest file (application.js) before requiring angular app:
 
     //= require angular
     //= require angular-route
     //= require angular-route-segment
+
+That's it! Now you can use [route segments](https://github.com/alekseenko/angular-route-segment).
