@@ -12,6 +12,4 @@ Gem::Specification.new do |s|
 	s.files			  = Dir['{lib,vendor}/**/*'] + ['MIT-LICENSE', 'README.md']
 	s.homepage    = 'https://github.com/alekseenko/angular-route-segment-rails/'
 	s.license     = 'MIT'
-
-  s.add_dependency 'angularjs-rails'
 end
